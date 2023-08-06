@@ -11,6 +11,6 @@ spec:
       spec:
          containers:
          - name: sample-pod
-           image: 390585564163.dkr.ecr.ap-south-1.amazonaws.com/spring-petclinic:latest:latest
+           image: 390585564163.dkr.ecr.ap-south-1.amazonaws.com/spring-petclinic:latest
            ports:
            - containerPort: 8080
