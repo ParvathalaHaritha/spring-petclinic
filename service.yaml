@@ -5,7 +5,7 @@ metadata:
   labels:
     app: sample-ctr
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports: 
   - port: 8080
     nodePort: 30005
